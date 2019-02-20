@@ -14,6 +14,9 @@ class Dog
     @breed = params[:breed]
   end
 
+  def create_table
+
+  end
 
 
 end
