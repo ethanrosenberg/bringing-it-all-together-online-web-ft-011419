@@ -9,7 +9,6 @@ class Dog
     else
       @id = nil
     end
-    #@id ||= params[:id]
     @name = params[:name]
     @breed = params[:breed]
   end
