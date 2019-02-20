@@ -47,7 +47,6 @@ class Dog
     dog = Dog.new(attributes)
     dog.save
     dog
-
   end
 
 end
