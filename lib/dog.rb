@@ -14,4 +14,6 @@ class Dog
     @breed = params[:breed]
   end
 
+
+
 end
