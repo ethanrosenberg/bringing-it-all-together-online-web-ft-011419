@@ -1,16 +1,11 @@
 class Dog
 
-  attr_accessor :name, :breed
-  attr_reader :id
+  attr_accessor :name, :breed, :id
 
-  def initialize (params)
-    if params[:id]
-      @id = params[:id]
-    else
-      @id = nil
-    end
-    @name = params[:name]
-    @breed = params[:breed]
+  def initialize (id: nil, name:, breed:)
+    @id = id
+    @name = name
+    @breed = breed
   end
 
   def self.create_table
